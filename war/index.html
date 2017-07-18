@@ -77,8 +77,7 @@
 					// Redirects to SSL/non-SSL
 					if (urlParams['demo'] != '1')
 					{
-						var ssl = (urlParams['https'] != null) ? urlParams['https'] == '1' :
-							navigator.userAgent.indexOf('MSIE') < 0 || document.documentMode >= 9;
+						var ssl = 0
 						
 						if (ssl && proto != 'https:')
 						{
