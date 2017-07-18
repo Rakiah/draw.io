@@ -19,8 +19,8 @@ The [mxGraph documentation](https://jgraph.github.io/mxgraph/) provides a lot of
 
 Running
 -------
-docker pull relzhong/draw.io
-docker run -p 8080:80 -d relzhong/draw.io
+`docker pull relzhong/draw.io`
+`docker run -p 8080:80 -d relzhong/draw.io`
 Go to: http://localhost:8080/draw.io/war/index.html?offline=1
 
 Supported Browsers
