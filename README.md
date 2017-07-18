@@ -19,9 +19,9 @@ The [mxGraph documentation](https://jgraph.github.io/mxgraph/) provides a lot of
 
 Running
 -------
-The simplest way to run draw.io initially is to fork this project, [publish the master branch to GitHub pages](https://help.github.com/categories/github-pages-basics/) and the [pages sites](https://jgraph.github.io/draw.io/war/index.html) will have the full editor functionality (sans the integrations).
-
-The full packaged .war of the client and servlets is built when the project is tagged and available on the [releases page](https://github.com/jgraph/draw.io/releases).
+docker pull relzhong/draw.io
+docker run -p 8080:80 -d relzhong/draw.io
+Go to: http://localhost:8080/draw.io/war/index.html?offline=1
 
 Supported Browsers
 ------------------
