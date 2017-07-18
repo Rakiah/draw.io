@@ -21,7 +21,7 @@ Running
 -------
 `docker pull relzhong/draw.io`  
 `docker run -p 8080:80 -d relzhong/draw.io`  
-Go to: http://localhost:8080/draw.io/war/index.html?offline=1
+Go to: http://localhost:8080
 
 Supported Browsers
 ------------------
